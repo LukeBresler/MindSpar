@@ -1,0 +1,8 @@
+{
+  "aps": {
+    "alert": "Badumpth MuthaFugga!",
+    "sound": "default",
+    "taget-content-id":"SettingsView",
+    "link_url": "http://realpixel.co.za"
+  }
+}
