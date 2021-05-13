@@ -35,7 +35,7 @@ struct SettingsView: View {
     @State private var showingAlert = false
     @State private var notificationsSet = 0.0
     
-    
+    @State private var showAcknowledgements: Bool = false
   @State private var readMore: Bool = false
   @State private var notificationSettings: Bool = false
   @State private var showShareSheet = false
@@ -253,15 +253,11 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
               Text("SwiftUI")
             }
             HStack {
-              
               Text("Website").foregroundColor(Color.gray)
               Spacer()
-                   
                 Button(action: { UIApplication.shared.open(self.urlWebsite) }) {
                 Text("mindspar.realpixel.co.za")
                 }
-                
-              
             }
             HStack {
               Text("Email").foregroundColor(Color.gray)
@@ -280,11 +276,8 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
                                 
                            }
                 .toggleStyle(CheckboxStyle())
-                
             }
-
           } else {
-            
             HStack {
               Text("Version").foregroundColor(Color.gray)
               Spacer()
@@ -302,12 +295,62 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
                            }
                 .toggleStyle(CheckboxStyle())
             }
-            
 
           }
         }
+      
+    
+    
+    
+    // MARK: - SECTION #4 ACKNOWLEDGEMENTS
+    Section(header: Text("Acknowldgements")) {
+      if showAcknowledgements {
+        HStack {
+          Text("Joshua Roberts")
+          Spacer()
+          Text("Psychology consultation")
+            .foregroundColor(Color.gray)
+        }
+        HStack {
+          Text("Person 2")
+          Spacer()
+          Text("Psychology consultation")
+            .foregroundColor(Color.gray)
+        }
+
+        HStack {
+          Text("Person 3")
+          Spacer()
+          Text("Psychology consultation")
+            .foregroundColor(Color.gray)
+        }
+
+        HStack {
+          Text("Person 4")
+          Spacer()
+          Text("Psychology consultation")
+            .foregroundColor(Color.gray)
+        }
+        HStack{
+            Toggle(isOn: $showAcknowledgements.animation()) {
+                         Text("Close Acknowledgements")
+                        .fontWeight(.light)
+                            
+                       }
+            .toggleStyle(CheckboxStyle())
+        }
+      } else {
+        Toggle(isOn: $showAcknowledgements.animation()) {
+            Text("Show Wonderful People")
+                .fontWeight(.light)
+        }
+        .toggleStyle(CheckboxStyle())
       }
     }
+      }
+        
+    }
+    
     .frame(maxWidth: 640)
   }
 }
