@@ -205,7 +205,7 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
                         content.sound = UNNotificationSound.default
 
                         // show this notification 60 seconds from now
-                        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: true)
+                        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 86400, repeats: true)
 
                         // choose a random identifier
                         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)

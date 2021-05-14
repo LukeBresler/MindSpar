@@ -61,7 +61,7 @@ let cardsData: [CardData] = [
  CardData(
     title: "You’re too late, you missed it, it’s all gone now.",
     
-  headline: "Similar to:  I’m too young, I can’t do anything.",
+  headline: "Similar to:  I’m too young / old, and I can’t do anything.",
   image: "Composition - 5",
    
   instructions: [
