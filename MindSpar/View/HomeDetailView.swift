@@ -3,7 +3,7 @@
 //  MindSpar
 //
 //  Created by Luke Bresler on 2020/06/18.
-//  Copyright © 2020 Luke Bresler. All rights reserved.
+//  Copyright © 2021 Luke Bresler. All rights reserved.
 //
 
 import SwiftUI
