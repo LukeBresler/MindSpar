@@ -8,16 +8,17 @@
 
 import SwiftUI
 
-// MARK: - RECIPE DATA
+// MARK: - CARD DATA
 
 
 let cardsData: [CardData] = [
  CardData(
   title: "Why are you trying so hard?",
-  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu convallis mauris. Nullam tristique placerat nulla, at venenatis libero facilisis nec. ",
+  headline: "Similar to: Why don't you relax a bit?",
   image: "Composition - 1",
   instructions: [
    "Because it's something I want to do. I chose it.",
+    "Meaning comes from effort, I am making more meaning for myself.",
   ],
     readMore: "https://"
    
@@ -25,18 +26,18 @@ let cardsData: [CardData] = [
     
  CardData(
   title: "You should just kill yourself",
-  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu convallis mauris. Nullam tristique placerat nulla, at venenatis libero facilisis nec. ",
+  headline: "Similar to: It's too overwhelming. ",
   image: "Composition - 2",
    
   instructions: [
    "It's not going to kill you to keep on living.",
      "Enjoy yourself, you are not here for very long.",
-     "Focus on the process"
+     "Focus on the process, and not the end result."
   ], readMore: "https://barelynormal.co.za/now"
  ),
  CardData(
   title: "I don’t feel like it, I feel too lazy",
-  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu convallis mauris. Nullam tristique placerat nulla, at venenatis libero facilisis nec. ",
+  headline: "Similar to: I feel unmotivated.",
   image: "Composition - 3",
   
   instructions: [
@@ -48,11 +49,12 @@ let cardsData: [CardData] = [
  ),
  CardData(
   title: "If it hasn’t happened by now, it probably never will.",
-  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu convallis mauris. Nullam tristique placerat nulla, at venenatis libero facilisis nec. ",
+  headline: "Similar to: You're not going to make it. ",
   image: "Composition - 4",
    
   instructions: [
-   "That is a false analogy. If anything, you have more experience now and so are better equipped than before."
+   "That is a false analogy.",
+    "If anything, you have more experience now and so are better equipped than before."
   ],
     readMore: "https://barelynormal.co.za/now"
  ),
@@ -70,7 +72,7 @@ let cardsData: [CardData] = [
  ),
  CardData(
   title: "What if something unexpected happens?",
-  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu convallis mauris. Nullam tristique placerat nulla, at venenatis libero facilisis nec. ",
+  headline: "Similar to: I need to be prepared for anything that happens. ",
   image: "Composition - 6",
    
   instructions: [
@@ -79,8 +81,8 @@ let cardsData: [CardData] = [
     readMore: "https://"
  ),
  CardData(
-  title: "A small life is a happy life",
-  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu convallis mauris. Nullam tristique placerat nulla, at venenatis libero facilisis nec. ",
+  title: "A small life is a happy life.",
+  headline: "Similar to: If I have 100% control I can be happy.",
   image: "Composition - 7",
    
   instructions: [
@@ -90,8 +92,8 @@ let cardsData: [CardData] = [
     readMore: "https://"
  ),
  CardData(
-  title: "You are not going to make it",
-  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu convallis mauris. Nullam tristique placerat nulla, at venenatis libero facilisis nec. ",
+  title: "You are not going to make it.",
+  headline: "Similar to: You are not good enough.",
   image: "Composition - 8",
    
   instructions: [
@@ -101,7 +103,7 @@ let cardsData: [CardData] = [
  ),
  CardData(
   title: "I can’t do it. It’s scary. It’s too overwhelming",
-  headline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu convallis mauris. Nullam tristique placerat nulla, at venenatis libero facilisis nec. ",
+  headline: "Similar to: I'm not going to make it, I'm not good enough.",
   image: "Composition - 9",
    
   instructions: [
@@ -112,11 +114,12 @@ let cardsData: [CardData] = [
   
  CardData(
   title: "It’s all going to fall apart. That will snuff me out.",
-  headline: "",
+  headline: "Similar to: When it rains, it pours.",
   image: "Composition - 10",
    
   instructions: [
-   "Decide that that will not hurt me, and it won’t. Nothing really destroys us until we die, and then we’re dead so it doesn’t matter."
+   "Decide that that will not hurt me, and it won’t. Nothing really destroys us until we die, and then we’re dead so it doesn’t matter.",
+    "Divide and conquer all the issues separately.",
     
   ],
     readMore: "https://"
@@ -124,18 +127,19 @@ let cardsData: [CardData] = [
   
  CardData(
   title: "You are a loser, with nothing going for you.",
-  headline: "",
+  headline: "Similar to: I am worthless.",
   image: "L",
    
   instructions: [
-   "I pay my own pay and I work fairly for what I have."
+   "I pay my own pay and I work fairly for what I have.",
+    "I am learning and improving at every opportunity.",
   ],
     readMore: "https://"
  ),
   
  CardData(
   title: "Everyone is going to hate/laugh at you!",
-  headline: "",
+  headline: "Similar to: You are going to be found out / Don't stand out too much.",
   image: "&",
    
   instructions: [
@@ -146,19 +150,20 @@ let cardsData: [CardData] = [
  ),
   
  CardData(
-  title: "Beware when stepping over streams - AKA change is bad",
-  headline: "",
+  title: "Change is bad.",
+  headline: "Similar to: I like the way things are.",
   image: "S",
    
   instructions: [
-   "Everything is in a state of flux. Nothing ever stays the same, even when we think it is. Focus on what you can control. Keep making decisions."
+   "Everything is in a state of flux. Nothing ever stays the same, even when we think it is.",
+    "Focus on what you can control. Keep making decisions."
   ],
     readMore: "https://"
  ),
   
  CardData(
   title: "You are never going to be good enough.",
-  headline: "",
+  headline: "Similar to: There is something wrong with you.",
   image: "G",
    
   instructions: [
