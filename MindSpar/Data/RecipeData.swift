@@ -24,17 +24,17 @@ let cardsData: [CardData] = [
    
  ),
     
- CardData(
-  title: "You should just kill yourself",
-  headline: "Similar to: It's too overwhelming. ",
-  image: "Composition - 2",
-   
-  instructions: [
-   "It's not going to kill you to keep on living.",
-     "Enjoy yourself, you are not here for very long.",
-     "Focus on the process, and not the end result."
-  ], readMore: "https://barelynormal.co.za/now"
- ),
+// CardData(
+//  title: "You should just kill yourself",
+//  headline: "Similar to: It's too overwhelming. ",
+//  image: "Composition - 2",
+//   
+//  instructions: [
+//   "It's not going to kill you to keep on living.",
+//     "Enjoy yourself, you are not here for very long.",
+//     "Focus on the process, and not the end result."
+//  ], readMore: "https://barelynormal.co.za/now"
+// ),
  CardData(
   title: "I don’t feel like it, I feel too lazy",
   headline: "Similar to: I feel unmotivated.",

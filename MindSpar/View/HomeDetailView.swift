@@ -17,6 +17,15 @@ struct HomeDetailView: View {
     
 
 var body: some View {
+    
+    VStack{
+        Text("_")
+            .font(.custom("", size: 50))
+            .fontWeight(.bold)
+            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 20, alignment: .center)
+            .padding(.bottom, 20)
+            .padding(.top, -10)
+    
     ScrollView(.vertical, showsIndicators: false){
         VStack{
             Text("_")
@@ -98,14 +107,12 @@ var body: some View {
             Text("icon to get another card.")
             }
         }
-        
-        
-        
+        .padding(.bottom, 20)
             }
         }
 }
     
-    
+}
 
 
 
