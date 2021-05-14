@@ -35,6 +35,7 @@ struct SettingsView: View {
     @State private var showingAlert = false
     @State private var notificationsSet = 0.0
     
+    @State private var showDisclaimer: Bool = false
     @State private var showAcknowledgements: Bool = false
   @State private var readMore: Bool = false
   @State private var notificationSettings: Bool = false
@@ -305,12 +306,7 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
     // MARK: - SECTION #4 ACKNOWLEDGEMENTS
     Section(header: Text("Acknowldgements")) {
       if showAcknowledgements {
-        HStack {
-          Text("Joshua Roberts")
-          Spacer()
-          Text("Psychology consultation")
-            .foregroundColor(Color.gray)
-        }
+        
         HStack {
           Text("Person 2")
           Spacer()
@@ -347,6 +343,43 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
         .toggleStyle(CheckboxStyle())
       }
     }
+        // MARK: - SECTION #5 DISCLAIMER
+        Section(header: Text("Disclaimer")) {
+          if showDisclaimer {
+            HStack {
+              Text("""
+DISCLAIMER:
+
+MindSpar is not intended to be a substitute for professional medical advice.
+
+Always seek the guidance of your doctor or other qualified health professional with any questions you may have regarding your health or a medical condition.
+""")
+              
+            }
+        
+
+         
+
+            
+            HStack{
+                Toggle(isOn: $showDisclaimer.animation()) {
+                             Text("Close Disclaimer")
+                            .fontWeight(.light)
+                                
+                           }
+                .toggleStyle(CheckboxStyle())
+            }
+          } else {
+            Toggle(isOn: $showDisclaimer.animation()) {
+                Text("View Disclaimer")
+                    .fontWeight(.light)
+            }
+            .toggleStyle(CheckboxStyle())
+          }
+        }
+
+        
+        
       }
         
     }
