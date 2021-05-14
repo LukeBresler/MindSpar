@@ -22,15 +22,21 @@ struct CardsDetailView: View {
     var baseURL = "www.realpixel.co.za"
     
   var body: some View {
-    ScrollView(.vertical, showsIndicators: false) {
-      VStack(alignment: .center, spacing: 0) {
-        // IMAGE
+    
+    
+    VStack(alignment: .center, spacing: 0) {
+    
         Text("_")
             .font(.custom("", size: 50))
             .fontWeight(.bold)
-            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 10, alignment: .center)
+            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 20, alignment: .center)
             .padding(.bottom, 20)
             .padding(.top, -10)
+    
+    ScrollView(.vertical, showsIndicators: false) {
+      VStack(alignment: .center, spacing: 0) {
+        // IMAGE
+       
         
         Image(colorScheme == .dark ? "dm\(recipe.image)" : recipe.image)
           .resizable()
@@ -117,6 +123,7 @@ struct CardsDetailView: View {
 //    .onAppear() {
 //      self.pulsate.toggle()
 //    }
+  }
   }
 }
 
