@@ -30,6 +30,7 @@ var body: some View {
         VStack{
             Text("_")
                 .font(.custom("", size: 50))
+                .foregroundColor(Color("customControlColor"))
                 .fontWeight(.bold)
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 10, alignment: .center)
                 .padding(.bottom, 20)
@@ -40,7 +41,7 @@ var body: some View {
             .scaledToFit()
             
             //.font(.largeTitle)
-            .foregroundColor(Color.gray)
+            .foregroundColor(Color("customControlColor"))
 
     Group {
         
@@ -51,7 +52,7 @@ var body: some View {
     """)
         .lineLimit(nil)
         .font(.custom("Dosis-Medium", size: 22))
-        .foregroundColor(Color("ColourTextAdaptive"))
+        .foregroundColor(Color("customControlColor"))
         .multilineTextAlignment(.center)
                  .lineSpacing(8)
                  .frame(maxWidth: 650, minHeight: 220)
@@ -108,8 +109,13 @@ var body: some View {
             }
         }
         .padding(.bottom, 20)
+        
             }
+   
         }
+    .background(colorScheme == .dark ? Color.black : Color.white)
+    .foregroundColor(Color("customControlColor"))
+    .edgesIgnoringSafeArea(.all)
 }
     
 }
@@ -120,38 +126,7 @@ struct HomeDetailView_Previews: PreviewProvider {
   static var previews: some View {
     HomeDetailView()
         .environment(\.colorScheme, .light)
+        //.environment(\.colorScheme, .dark)
   }
 }
 
-
-
-
-
-
-
-
-///
-
-//VStack{
-
-//
-//    }
-//
-//
-//    HStack{
-//        Text("4.)")
-//            .font(.custom("Dosis-Medium", size: 24))
-//                HStack{
-//                        Text("Press the ")
-//                            VStack{
-//                            Image(systemName: "shuffle")
-//                            }
-//                            .opacity(0.8)
-//                            Text("button to get another card, randomly")
-//                        }
-//                    }
-//
-//                }
-//                padding(.leading)
-//
-/////
