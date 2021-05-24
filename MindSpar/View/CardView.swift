@@ -10,25 +10,11 @@ import SwiftUI
 struct ExtendedCardsView: View {
   // MARK: - PROPERTIES
     
-//  @Binding var isSelected : Bool
-//  @State var hiddenTrigger = false
-//    @State var txtValue: String = ".."
-//
-//    func ChangeText()
-//    {
-//        if (self.txtValue == ".")
-//        {
-//            self.txtValue = ".."
-//        }
-//        else{
-//            self.txtValue = "."
-//        }
-//    }
-     @State private var showingAlert = false
-    
+    @State private var showingAlert = false
     @State var arr = cardsData
-    
     @State private var refresh: Bool = false
+    
+   
   
     
   var recipes: [CardData] = cardsData
@@ -42,7 +28,7 @@ struct ExtendedCardsView: View {
     VStack(alignment: .center, spacing: 5) {
         
       // CARD IMAGE
-        Image(colorScheme == .dark ? "dm\(recipe.image)" : recipe.image)
+        Image(colorScheme == .dark ? recipe.image : recipe.image)
         .resizable()
         
         .scaledToFit()
@@ -62,8 +48,8 @@ struct ExtendedCardsView: View {
         Text(recipe.title)
             .font(.custom("Dosis-Medium", size: 22))
             .multilineTextAlignment(.center)
-            .foregroundColor(Color.black)
-            .opacity(0.9)
+            .foregroundColor(Color("adaptiveTitleColor"))
+            //.opacity(0.9)
             .padding(.leading, 20)
             .padding(.trailing, 20)
            
@@ -101,31 +87,12 @@ struct ExtendedCardsView: View {
             
     //MARK: RANDOM CARD
                         
-//            Button(action:{
-//                self.hapticImpact.impactOccurred()
-//                
-//                self.arr.shuffle()
-//              
-//                    //ExtendedCardsView(recipe: self.recipes.randomElement()!)
-//                
-//               
-//                   self.refresh.toggle()
-//                
-//       
-//                   // print("\(self.refresh)")
-//
-//
-//                   }) {
-//                       Image(systemName: "shuffle")
-//                           .font(.title)
-//                        .foregroundColor(Color.gray)
-//
-//                   }
+
                }
         .padding(.bottom)
         
     }
-    .background(colorScheme == .dark ? Color.black : Color.white)
+    .background(Color("adaptiveBackgroundColor"))
     .cornerRadius(12)
     .shadow(color: Color("ColorBlackTransparentLight"), radius: 8, x: 0, y: 0)
     .onTapGesture {
@@ -158,6 +125,7 @@ struct ExtendedCarsdView_Previews: PreviewProvider {
     ExtendedCardsView(recipe:cardsData [3])
       .previewLayout(.sizeThatFits)
         .environment(\.colorScheme, .light)
+        //.environment(\.colorScheme, .dark)
   }
 }
 

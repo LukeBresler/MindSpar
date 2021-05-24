@@ -125,8 +125,8 @@ var body: some View {
 struct HomeDetailView_Previews: PreviewProvider {
   static var previews: some View {
     HomeDetailView()
-        .environment(\.colorScheme, .light)
-        //.environment(\.colorScheme, .dark)
+        //.environment(\.colorScheme, .light)
+        .environment(\.colorScheme, .dark)
   }
 }
 
