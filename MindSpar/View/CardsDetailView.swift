@@ -29,6 +29,7 @@ struct CardsDetailView: View {
         Text("_")
             .font(.custom("", size: 50))
             .fontWeight(.bold)
+            .foregroundColor(Color("customControlColor"))
             .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 20, alignment: .center)
             .padding(.bottom, 20)
             .padding(.top, -10)
@@ -38,7 +39,7 @@ struct CardsDetailView: View {
         // IMAGE
        
         
-        Image(colorScheme == .dark ? "dm\(recipe.image)" : recipe.image)
+        Image(colorScheme == .dark ? (recipe.image) : recipe.image)
           .resizable()
           .scaledToFit()
             .frame(width:320, height: 160)
@@ -59,7 +60,7 @@ struct CardsDetailView: View {
           
           Text("Counter-thought:")
             .font(.custom("Dosis-medium", size: 20))
-            //.fontWeight(.bold)
+            .foregroundColor(Color("customControlColor"))
             //.modifier(TitleModifier())
           
           ForEach(recipe.instructions, id: \.self) { item in
@@ -69,13 +70,13 @@ struct CardsDetailView: View {
                 .frame(width: 30, height: 30, alignment: .center)
                 .imageScale(.large)
                 .font(Font.title.weight(.ultraLight))
-                .foregroundColor(Color.black)
+                .foregroundColor(Color("customControlColor"))
                 .opacity(0.8)
                 
               Text(item)
                 .lineLimit(9)
                 .font(.custom("Dosis-medium", size:22))
-                .foregroundColor(Color("ColourTextAdaptive"))
+                .foregroundColor(Color("customControlColor"))
                 .multilineTextAlignment(.center)
                          .lineSpacing(8)
                 .padding(.top, 20)
@@ -94,35 +95,9 @@ struct CardsDetailView: View {
         .padding(.vertical, 12)
       }
     }
-//    .edgesIgnoringSafeArea(.top)
-//    .overlay(
-//      HStack {
-//        Spacer()
-//        VStack {
-//          Button(action: {
-//            // ACTION
-//            self.presentationMode.wrappedValue.dismiss()
-//          }, label: {
-//             Image(systemName: "xmark.circle")
-//                .font(.title)
-//                .foregroundColor(colorScheme == .dark ? Color.white : Color.black)
-//              //.shadow(radius: 10)
-//                .opacity(0.8)
-////colorScheme == .dark ? Color.black : Color.white
-//
-//
-//
-//
-//          })
-//            .padding(.trailing, 20)
-//            .padding(.top, 20)
-//          Spacer()
-//        }
-//      }
-//    )
-//    .onAppear() {
-//      self.pulsate.toggle()
-//    }
+    .background(Color("adaptiveBackgroundColor"))
+    .edgesIgnoringSafeArea(.all)
+
   }
   }
 }
@@ -131,7 +106,8 @@ struct RecipeDetailView_Previews: PreviewProvider {
   static var previews: some View {
     if #available(iOS 14.0, *) {
         CardsDetailView(recipe: cardsData[4])
-            .environment(\.colorScheme, .light)
+            //.environment(\.colorScheme, .light)
+            .environment(\.colorScheme, .dark)
     } else {
         // Fallback on earlier versions
     }
