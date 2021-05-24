@@ -26,9 +26,6 @@ struct CardsView: View {
     
       var body: some View {
         
-       
-        
-        //ScrollView(.vertical, showsIndicators: false) {
             
         VStack {
         
@@ -51,7 +48,7 @@ struct CardsView: View {
 
                   }
                 //}
-                    .background(colorScheme == .dark ? Color.black.opacity(0.8) : Color.white)
+                    //.background(Color("adaptiveBackgroundColor"))
                 .padding(.bottom, 5)
             }
             
@@ -84,10 +81,11 @@ struct CardsView: View {
             
             
         }
-       
-
+        //.background(Color("adaptiveBackgroundColor"))
+        
       }
     
+
 }
 
     struct TitleModifier: ViewModifier {
@@ -104,7 +102,8 @@ struct CardsView: View {
       static var previews: some View {
         CardsView(recipes: cardsData)
           .previewDevice("iPhone 7")
-            .environment(\.colorScheme, .light)
+            //.environment(\.colorScheme, .light)
+            .environment(\.colorScheme, .dark)
       }
     }
 
@@ -123,7 +122,8 @@ struct SimpleButtonStyle: ButtonStyle {
                                    .fill(Color.offWhite)
                            } else {
                                Circle()
-                                   .fill(Color.offWhite)
+                                   //.fill(Color.offWhite)
+                                .fill(Color("adaptiveBackgroundColor"))
                                    .shadow(color: Color.black.opacity(0.3), radius: 10, x: 10, y: 10)
                                    .shadow(color: Color.white.opacity(0.9), radius: 10, x: -5, y: -5)
                            }
