@@ -59,7 +59,7 @@ struct SettingsView: View {
           .scaledToFit()
           .padding(.top)
           .frame(width: 125, height: 125, alignment: .center)
-            .foregroundColor(.black)
+            .foregroundColor(Color("customControlColor"))
             //.opacity(0.75)
          
         
@@ -67,7 +67,7 @@ struct SettingsView: View {
             //.font(.system(.title, design: .serif))
             .font(.headline)
           .fontWeight(.bold)
-            .foregroundColor(Color.black)
+            .foregroundColor(Color("customControlColor"))
       }
       .padding()
       
@@ -123,7 +123,7 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
                 Text("Share App")
                     .bold()
                 .buttonStyle(DefaultButtonStyle())
-                    .foregroundColor(Color.black)
+                    .foregroundColor(Color("customControlColor"))
                 }
             }
            
@@ -384,7 +384,9 @@ Always seek the guidance of your doctor or other qualified health professional w
         
     }
     
+    .background(colorScheme == .dark ? Color.black : Color.white)
     .frame(maxWidth: 640)
+    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
   }
 }
 
@@ -401,7 +403,7 @@ struct CheckboxStyle: ToggleStyle {
             Image(systemName: configuration.isOn ? "chevron.up.circle" : "chevron.down.circle")
                 .resizable()
                 .frame(width: 24, height: 24)
-                .foregroundColor(configuration.isOn ? .black : .black)
+                .foregroundColor(Color("customControlColor"))
                 .font(.system(size: 20, weight: .light, design: .default))
                 .onTapGesture {
                     configuration.isOn.toggle()
@@ -416,8 +418,12 @@ struct SettingsView_Previews: PreviewProvider {
   static var previews: some View {
     SettingsView()
     .environment(\.colorScheme, .light)
+    //.environment(\.colorScheme, .dark)
   }
 }
+
+
+
 
 //MARK: New File
 struct ShareSheet: UIViewControllerRepresentable {
