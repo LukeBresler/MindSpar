@@ -385,6 +385,7 @@ Always seek the guidance of your doctor or other qualified health professional w
     }
     
     .background(colorScheme == .dark ? Color.black : Color.white)
+    
     .frame(maxWidth: 640)
     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
   }
