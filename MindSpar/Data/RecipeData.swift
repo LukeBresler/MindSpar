@@ -53,8 +53,9 @@ let cardsData: [CardData] = [
   image: "Composition - 4",
    
   instructions: [
-   "That is a false analogy.",
-    "If anything, you have more experience now and so are better equipped than before."
+   "That is a false analogy, it assumes you cannot change at all, even slightly.",
+    "If anything, you have more experience now and so are better equipped than before.",
+    "You always have a choice to do something, why not do something now?",
   ],
     readMore: "https://barelynormal.co.za/now"
  ),
