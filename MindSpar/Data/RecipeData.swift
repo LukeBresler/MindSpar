@@ -17,7 +17,7 @@ let cardsData: [CardData] = [
   headline: "Similar to: Why don't you relax a bit?",
   image: "Composition - 1",
   instructions: [
-   "Because it's something I want to do. I chose it.",
+   "Because it's something I want to do - I choose it.",
     "Meaning comes from effort, I am making more meaning for myself.",
   ],
     readMore: "https://"
@@ -41,7 +41,7 @@ let cardsData: [CardData] = [
   image: "Composition - 3",
   
   instructions: [
-   "Do you need to rest or is there hesitation?",
+   "Do you actually need to rest or is there hesitation?",
    "Rest if you need to, and if there is hesitation realign your 'why'",
    
     ],

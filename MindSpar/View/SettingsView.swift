@@ -418,8 +418,8 @@ struct CheckboxStyle: ToggleStyle {
 struct SettingsView_Previews: PreviewProvider {
   static var previews: some View {
     SettingsView()
-    .environment(\.colorScheme, .light)
-    //.environment(\.colorScheme, .dark)
+    //.environment(\.colorScheme, .light)
+    .environment(\.colorScheme, .dark)
   }
 }
 
