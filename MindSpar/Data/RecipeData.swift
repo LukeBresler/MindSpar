@@ -88,7 +88,8 @@ let cardsData: [CardData] = [
    
   instructions: [
    "You are here for experiences, not constraints, or to mark time.",
-    "The size of your life is not related to your happiness - do not confuse personal loci with a 'small life'"
+    "The size of your life is not related to your happiness - do not confuse personal loci with a 'small life'",
+    
   ],
     readMore: "https://"
  ),
@@ -98,7 +99,9 @@ let cardsData: [CardData] = [
   image: "Composition - 8",
    
   instructions: [
-   "The process is much more important than the outcome. Keep making decisions, and focusing on the process. You're on the right track!"
+   "The process is much more important than the outcome. Keep making decisions, and focusing on the process.",
+    "It's not give to you to know how close you are to your goal/breakthrough, so keep going.",
+    "Keep making decisions and moving towards your goal - it's easier to steer a ship that's moving",
   ],
     readMore: "https://"
  ),
