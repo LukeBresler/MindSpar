@@ -100,7 +100,7 @@ let cardsData: [CardData] = [
    
   instructions: [
    "The process is much more important than the outcome. Keep making decisions, and focusing on the process.",
-    "It's not give to you to know how close you are to your goal/breakthrough, so keep going.",
+    "It's not given to you to know how close you are to your goal/breakthrough, so keep going.",
     "Keep making decisions and moving towards your goal - it's easier to steer a ship that's moving",
   ],
     readMore: "https://"
