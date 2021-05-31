@@ -41,8 +41,8 @@ let cardsData: [CardData] = [
   image: "Composition - 3",
   
   instructions: [
-   "Do you actually need to rest or is there hesitation?",
-   "Rest if you need to, and if there is hesitation realign your 'why'",
+   "Do you actually need to rest? If so, rest.",
+   "Rest if you need to, but if there is hesitation realign your 'why' by analyzing your motives, and finding more reasons to do it, than not to. This could mean adding accountability with someone else, or refraiming the task as a challenge and turning it into a game.",
    
     ],
     readMore: "https://barelynormal.co.za/now"
