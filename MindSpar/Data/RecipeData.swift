@@ -78,7 +78,10 @@ let cardsData: [CardData] = [
   image: "Composition - 6",
    
   instructions: [
-   "Then you will probably work as hard as you can to fix, and even benefit from it. BUT chances are good that nothing happens.",
+   "Cause: anxiety over a lack of total control.",
+    "Know that if something unexpected does happen you will do what you can to rectify and even benefit from the situation, that's what you would do now, right? Then it is likely you will handle whatever comes at you in the future just fine.",
+    "You can trust yourself, you are still in control of your thoughts after all.",
+
   ],
     readMore: "https://"
  ),
