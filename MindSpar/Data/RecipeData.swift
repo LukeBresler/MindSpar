@@ -67,7 +67,7 @@ let cardsData: [CardData] = [
    
   instructions: [
    "Age doesn’t matter. Work matters. People start over at all ages - It is totally fine. There are always opportunities. Keep your head down and work.",
-    "Bussiness opportunites are like buses, there is always another one coming - Richard Branson",
+    "Bussiness opportunites are like buses, there is always another one coming. - Richard Branson",
   ],
     readMore: "https://barelynormal.co.za/now"
 
@@ -81,7 +81,7 @@ let cardsData: [CardData] = [
    "Cause: anxiety over a lack of total control.",
     "Know that if something unexpected does happen you will do what you can to rectify and even benefit from the situation, that's what you would do now, right? Then it is likely you will handle whatever comes at you in the future just fine.",
     "You can trust yourself, you are still in control of your thoughts after all.",
-
+"Trust yourself. Create the kind of self that you will be happy to live with all your life. Make the most of yourself by fanning the tiny, inner sparks of possibility into flames of achievement. - Golda Meir",
   ],
     readMore: "https://"
  ),
