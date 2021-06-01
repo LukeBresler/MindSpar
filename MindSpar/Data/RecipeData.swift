@@ -49,7 +49,7 @@ let cardsData: [CardData] = [
  ),
  CardData(
   title: "If it hasn’t happened by now, it probably never will.",
-  headline: "Similar to: You're not going to make it. ",
+  headline: "Similar to: You're not going to make it, or I can't do it. ",
   image: "Composition - 4",
    
   instructions: [
@@ -62,11 +62,12 @@ let cardsData: [CardData] = [
  CardData(
     title: "You’re too late, you missed it, it’s all gone now.",
     
-  headline: "Similar to:  I’m too young / old, and I can’t do anything.",
+  headline: "Similar to:  I’m too young / old, and I can’t do it.",
   image: "Composition - 5",
    
   instructions: [
-   "Age doesn’t matter. Work matters. People start over at all ages. It is totally fine. There are always opportunities. Keep your head down and work.",
+   "Age doesn’t matter. Work matters. People start over at all ages - It is totally fine. There are always opportunities. Keep your head down and work.",
+    "Bussiness opportunites are like buses, there is always another one coming - Richard Branson",
   ],
     readMore: "https://barelynormal.co.za/now"
 
