@@ -93,7 +93,7 @@ let cardsData: [CardData] = [
   instructions: [
    "You are here for experiences, not constraints, or to mark time.",
     "The size of your life is not related to your happiness - do not confuse personal loci with a 'small life'",
-    
+    "Don't you ever get the feeling that all your life is going by and you're not taking advantage of it? Do you realize you've lived nearly half the time you have to live already? ― Ernest Hemingway, The Sun Also Rises",
   ],
     readMore: "https://"
  ),
@@ -107,6 +107,7 @@ let cardsData: [CardData] = [
     "Keep making decisions, and focusing on the process.",
     "It's not given to you to know how close you are to your goal/breakthrough, so keep going.",
     "Keep making decisions and moving towards your goal - it's easier to steer a ship that's moving",
+    "Life is like riding a bicycle, to keep your balance, you must keep moving. – Albert Einstein",
   ],
     readMore: "https://"
  ),
@@ -116,7 +117,8 @@ let cardsData: [CardData] = [
   image: "Composition - 9",
    
   instructions: [
-   "Add more context then divide and conquer. Everything can be vaporised before we realised what’s happening. Nothing really matters, enjoy yourself."
+   "Add more context then divide and conquer. Everything can be vaporised before we realised what’s happening. Nothing really matters, enjoy yourself.",
+    "there is only one way to eat an elephant: a bite at a time - Desmond Tutu",
   ],
     readMore: "https://"
  ),
