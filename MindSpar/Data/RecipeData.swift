@@ -131,6 +131,7 @@ let cardsData: [CardData] = [
   instructions: [
    "Decide that that will not hurt me, and it won’t. Nothing really destroys us until we die, and then we’re dead so it doesn’t matter.",
     "Divide and conquer all the issues separately.",
+    "Your life follows your attention. Wherever you look, you end up going. - Martha Beck",
     
   ],
     readMore: "https://"
@@ -144,6 +145,7 @@ let cardsData: [CardData] = [
   instructions: [
    "I pay my own pay and I work fairly for what I have.",
     "I am learning and improving at every opportunity.",
+    "You are never a loser until you quit trying - Mike Ditka",
   ],
     readMore: "https://"
  ),
@@ -155,7 +157,8 @@ let cardsData: [CardData] = [
    
   instructions: [
    "Only my opinion should matter to me. You always do what needs to be done. Don’t second guess yourself, keep working.",
-    "Plus they care far more about themselves than they do about you."
+    "Plus they care far more about themselves than they do about you.",
+    "Shame, blame, disrespect, betrayal, and the withholding of affection damage the roots from which love grows. Love can only survive these injuries if they are acknowledged, healed and rare. - Brené Brown",
   ],
     readMore: "https://"
  ),
@@ -167,7 +170,8 @@ let cardsData: [CardData] = [
    
   instructions: [
    "Everything is in a state of flux. Nothing ever stays the same, even when we think it is.",
-    "Focus on what you can control. Keep making decisions."
+    "Focus on what you can control. Keep making decisions.",
+    "The greatest discovery of all time is that a person can change his future by merely changing his attitude. - Oprah Winfrey",
   ],
     readMore: "https://"
  ),
@@ -179,7 +183,8 @@ let cardsData: [CardData] = [
    
   instructions: [
    "Good enough for what? What must a human animal do to be content?",
-    "With consistency I can do almost anything. Plus, I’m tough and stubborn."
+    "With consistency I can do almost anything. Plus, I’m tough and stubborn.",
+    "Realize that everyone that you think is perfect feels like they're not good enough, too. - Alessia Cara",
   ],
     readMore: "https://"
  ),
