@@ -19,6 +19,7 @@ let cardsData: [CardData] = [
   instructions: [
    "Because it's something I want to do - I choose it.",
     "Meaning comes from effort, I am making more meaning for myself.",
+    "Satisfaction lies in the effort, not in the attainment. - Mahatma Gandhi",
   ],
     readMore: "https://"
    
@@ -41,8 +42,9 @@ let cardsData: [CardData] = [
   image: "Composition - 3",
   
   instructions: [
-   "Do you actually need to rest? If so, rest.",
+   "Do you actually need to rest?",
    "Rest if you need to, but if there is hesitation realign your 'why' by analyzing your motives, and finding more reasons to do it, than not to. This could mean adding accountability with someone else, or refraiming the task as a challenge and turning it into a game.",
+    "On the plains of hesitation lie the blackened bones of countless millions who at the dawn of victory lay down to rest, and in resting died. - Adlai Stevenson I",
    
     ],
     readMore: "https://barelynormal.co.za/now"
@@ -56,6 +58,7 @@ let cardsData: [CardData] = [
    "That is a false analogy, it assumes you cannot change at all, even slightly.",
     "If anything, you have more experience now and so are better equipped than before.",
     "You always have a choice to do something, why not do something now?",
+    "If you do not change direction, you might end up where you are heading. - Lao Tzu",
   ],
     readMore: "https://barelynormal.co.za/now"
  ),
