@@ -20,8 +20,8 @@ let cardsData: [CardData] = [
    "Because it's something I want to do - I choose it.",
     "Meaning comes from effort, I am making more meaning for myself.",
     "Satisfaction lies in the effort, not in the attainment. - Mahatma Gandhi",
-  ],
-    readMore: "https://"
+  ]
+  //  readMore: "https://"
    
  ),
     
@@ -46,8 +46,8 @@ let cardsData: [CardData] = [
    "Rest if you need to, but if there is hesitation realign your 'why' by analyzing your motives, and finding more reasons to do it, than not to. This could mean adding accountability with someone else, or refraiming the task as a challenge and turning it into a game.",
     "On the plains of hesitation lie the blackened bones of countless millions who at the dawn of victory lay down to rest, and in resting died. - Adlai Stevenson I",
    
-    ],
-    readMore: "https://barelynormal.co.za/now"
+    ]
+   // readMore: "https://barelynormal.co.za/now"
  ),
  CardData(
   title: "If it hasn’t happened by now, it probably never will.",
@@ -59,8 +59,8 @@ let cardsData: [CardData] = [
     "If anything, you have more experience now and so are better equipped than before.",
     "You always have a choice to do something, why not do something now?",
     "If you do not change direction, you might end up where you are heading. - Lao Tzu",
-  ],
-    readMore: "https://barelynormal.co.za/now"
+  ]
+   // readMore: "https://barelynormal.co.za/now"
  ),
  CardData(
     title: "You’re too late, you missed it, it’s all gone now.",
@@ -71,8 +71,8 @@ let cardsData: [CardData] = [
   instructions: [
    "Age doesn’t matter. Work matters. People start over at all ages - It is totally fine. There are always opportunities. Keep your head down and work.",
     "Bussiness opportunites are like buses, there is always another one coming. - Richard Branson",
-  ],
-    readMore: "https://barelynormal.co.za/now"
+  ]
+   // readMore: "https://barelynormal.co.za/now"
 
  ),
  CardData(
@@ -85,8 +85,8 @@ let cardsData: [CardData] = [
     "Know that if something unexpected does happen you will do what you can to rectify and even benefit from the situation, that's what you would do now, right? Then it is likely you will handle whatever comes at you in the future just fine.",
     "You can trust yourself, you are still in control of your thoughts after all.",
 "Trust yourself. Create the kind of self that you will be happy to live with all your life. Make the most of yourself by fanning the tiny, inner sparks of possibility into flames of achievement. - Golda Meir",
-  ],
-    readMore: "https://"
+  ]
+   // readMore: "https://"
  ),
  CardData(
   title: "A small life is a happy life.",
@@ -97,8 +97,8 @@ let cardsData: [CardData] = [
    "You are here for experiences, not constraints, or to mark time.",
     "The size of your life is not related to your happiness - do not confuse personal loci with a 'small life'",
     "Don't you ever get the feeling that all your life is going by and you're not taking advantage of it? Do you realize you've lived nearly half the time you have to live already? ― Ernest Hemingway, The Sun Also Rises",
-  ],
-    readMore: "https://"
+  ]
+  //  readMore: "https://"
  ),
  CardData(
   title: "You are not going to make it.",
@@ -111,8 +111,8 @@ let cardsData: [CardData] = [
     "It's not given to you to know how close you are to your goal/breakthrough, so keep going.",
     "Keep making decisions and moving towards your goal - it's easier to steer a ship that's moving",
     "Life is like riding a bicycle, to keep your balance, you must keep moving. – Albert Einstein",
-  ],
-    readMore: "https://"
+  ]
+ //   readMore: "https://"
  ),
  CardData(
   title: "I can’t do it. It’s scary. It’s too overwhelming",
@@ -122,8 +122,8 @@ let cardsData: [CardData] = [
   instructions: [
    "Add more context then divide and conquer. Everything can be vaporised before we realised what’s happening. Nothing really matters, enjoy yourself.",
     "there is only one way to eat an elephant: a bite at a time - Desmond Tutu",
-  ],
-    readMore: "https://"
+  ]
+  //  readMore: "https://"
  ),
   
  CardData(
@@ -136,8 +136,8 @@ let cardsData: [CardData] = [
     "Divide and conquer all the issues separately.",
     "Your life follows your attention. Wherever you look, you end up going. - Martha Beck",
     
-  ],
-    readMore: "https://"
+  ]
+//    readMore: "https://"
  ),
   
  CardData(
@@ -149,8 +149,8 @@ let cardsData: [CardData] = [
    "I pay my own pay and I work fairly for what I have.",
     "I am learning and improving at every opportunity.",
     "You are never a loser until you quit trying - Mike Ditka",
-  ],
-    readMore: "https://"
+  ]
+ //   readMore: "https://"
  ),
   
  CardData(
@@ -162,8 +162,8 @@ let cardsData: [CardData] = [
    "Only my opinion should matter to me. You always do what needs to be done. Don’t second guess yourself, keep working.",
     "Plus they care far more about themselves than they do about you.",
     "Shame, blame, disrespect, betrayal, and the withholding of affection damage the roots from which love grows. Love can only survive these injuries if they are acknowledged, healed and rare. - Brené Brown",
-  ],
-    readMore: "https://"
+  ]
+//    readMore: "https://"
  ),
   
  CardData(
@@ -175,8 +175,8 @@ let cardsData: [CardData] = [
    "Everything is in a state of flux. Nothing ever stays the same, even when we think it is.",
     "Focus on what you can control. Keep making decisions.",
     "The greatest discovery of all time is that a person can change his future by merely changing his attitude. - Oprah Winfrey",
-  ],
-    readMore: "https://"
+  ]
+ //   readMore: "https://"
  ),
   
  CardData(
@@ -188,8 +188,8 @@ let cardsData: [CardData] = [
    "Good enough for what? What must a human animal do to be content?",
     "With consistency I can do almost anything. Plus, I’m tough and stubborn.",
     "Realize that everyone that you think is perfect feels like they're not good enough, too. - Alessia Cara",
-  ],
-    readMore: "https://"
+  ]
+ //   readMore: "https://"
  ),
   
  

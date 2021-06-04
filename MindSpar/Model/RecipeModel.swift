@@ -16,7 +16,7 @@ struct CardData: Identifiable {
   var headline: String
   var image: String
   var instructions: [String]
-  var readMore: String
+ // var readMore: String
     
 //    static var example: Recipe {
 //        Recipe(id: UUID(), title: "test title", headline: "headline", image: "", instructions: ["Instructions"])
