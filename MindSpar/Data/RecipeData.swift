@@ -47,7 +47,7 @@ let cardsData: [CardData] = [
     "On the plains of hesitation lie the blackened bones of countless millions who at the dawn of victory lay down to rest, and in resting died. - Adlai Stevenson I",
    
     ]
-   // readMore: "https://barelynormal.co.za/now"
+   // readMore:
  ),
  CardData(
   title: "If it hasn’t happened by now, it probably never will.",
@@ -60,7 +60,7 @@ let cardsData: [CardData] = [
     "You always have a choice to do something, why not do something now?",
     "If you do not change direction, you might end up where you are heading. - Lao Tzu",
   ]
-   // readMore: "https://barelynormal.co.za/now"
+   // readMore:
  ),
  CardData(
     title: "You’re too late, you missed it, it’s all gone now.",
@@ -72,7 +72,7 @@ let cardsData: [CardData] = [
    "Age doesn’t matter. Work matters. People start over at all ages - It is totally fine. There are always opportunities. Keep your head down and work.",
     "Bussiness opportunites are like buses, there is always another one coming. - Richard Branson",
   ]
-   // readMore: "https://barelynormal.co.za/now"
+   // readMore:
 
  ),
  CardData(
