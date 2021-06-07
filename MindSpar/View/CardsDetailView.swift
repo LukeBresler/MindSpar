@@ -86,9 +86,9 @@ struct CardsDetailView: View {
             }
           }
             
-            Button("For more information..."){
-                openURL(URL(string: recipe.readMore)!)
-                   }
+//            Button("For more information..."){
+//                openURL(URL(string: recipe.readMore)!)
+//                   }
             
         }
         .padding(.horizontal, 24)
