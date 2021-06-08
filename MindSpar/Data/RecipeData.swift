@@ -25,6 +25,17 @@ let cardsData: [CardData] = [
    
  ),
     
+    CardData(
+        title: "You are less than everyone else",
+        headline:"Similar to: You don't count",
+        image: "Composition - 2",
+        instructions: [
+        "You shouldn't compare someone else's situation to yours, you have no idea what got them there and maybe neither do they.",
+            "You are the most important person to you, so become your own hero.",
+            "Life is never made unbearable by circumstances, but only by lack of meaning and purpose. — Viktor Frankl",
+        ]
+    ),
+    
 // CardData(
 //  title: "You should just kill yourself",
 //  headline: "Similar to: It's too overwhelming. ",
