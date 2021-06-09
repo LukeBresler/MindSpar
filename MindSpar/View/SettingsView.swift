@@ -268,7 +268,7 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
             HStack {
               Text("Version").foregroundColor(Color.gray)
               Spacer()
-              Text("1.6.2")
+              Text("1.8.3")
             }
             HStack{
                 Toggle(isOn: $showAppInfo.animation()) {
@@ -282,7 +282,7 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
             HStack {
               Text("Version").foregroundColor(Color.gray)
               Spacer()
-              Text("1.6.2")
+              Text("1.8.3")
             }
             HStack {
               Text("Developer").foregroundColor(Color.gray)
