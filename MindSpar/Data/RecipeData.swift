@@ -37,7 +37,7 @@ let cardsData: [CardData] = [
     ),
     
 // CardData(
-//  title: "You should just kill yourself",
+//  title: "+You should just kill yourself",
 //  headline: "Similar to: It's too overwhelming. ",
 //  image: "Composition - 2",
 //
@@ -48,7 +48,7 @@ let cardsData: [CardData] = [
 //  ], readMore: "https://barelynormal.co.za/now"
 // ),
  CardData(
-  title: "I don’t feel like it, I feel too lazy",
+  title: "+I don’t feel like it, I feel too lazy",
   headline: "Similar to: I feel unmotivated.",
   image: "Composition - 3",
   
@@ -61,7 +61,7 @@ let cardsData: [CardData] = [
    // readMore:
  ),
  CardData(
-  title: "If it hasn’t happened by now, it probably never will.",
+  title: "+If it hasn’t happened by now, it probably never will.",
   headline: "Similar to: You're not going to make it, or I can't do it. ",
   image: "Composition - 4",
    
@@ -74,7 +74,7 @@ let cardsData: [CardData] = [
    // readMore:
  ),
  CardData(
-    title: "You’re too late, you missed it, it’s all gone now.",
+    title: "+You’re too late, you missed it, it’s all gone now.",
     
   headline: "Similar to:  I’m too young / old, and I can’t do it.",
   image: "Composition - 5",
@@ -87,7 +87,7 @@ let cardsData: [CardData] = [
 
  ),
  CardData(
-  title: "What if something unexpected happens?",
+  title: "+What if something unexpected happens?",
   headline: "Similar to: I need to be prepared for anything that happens. ",
   image: "Composition - 6",
    
@@ -100,7 +100,7 @@ let cardsData: [CardData] = [
    // readMore: "https://"
  ),
  CardData(
-  title: "A small life is a happy life.",
+  title: "+A small life is a happy life.",
   headline: "Similar to: If I have 100% control I can be happy.",
   image: "Composition - 7",
    
@@ -112,7 +112,7 @@ let cardsData: [CardData] = [
   //  readMore: "https://"
  ),
  CardData(
-  title: "You are not going to make it.",
+  title: "+You are not going to make it.",
   headline: "Similar to: You are not good enough.",
   image: "Composition - 8",
    
@@ -126,7 +126,7 @@ let cardsData: [CardData] = [
  //   readMore: "https://"
  ),
  CardData(
-  title: "I can’t do it. It’s scary. It’s too overwhelming",
+  title: "+I can’t do it. It’s scary. It’s too overwhelming",
   headline: "Similar to: I'm not going to make it, I'm not good enough.",
   image: "Composition - 9",
    
@@ -138,7 +138,7 @@ let cardsData: [CardData] = [
  ),
   
  CardData(
-  title: "It’s all going to fall apart. That will snuff me out.",
+  title: "+It’s all going to fall apart. That will snuff me out.",
   headline: "Similar to: When it rains, it pours.",
   image: "Composition - 10",
    
@@ -152,7 +152,7 @@ let cardsData: [CardData] = [
  ),
   
  CardData(
-  title: "You are a loser, with nothing going for you.",
+  title: "+You are a loser, with nothing going for you.",
   headline: "Similar to: I am worthless.",
   image: "L",
    
@@ -165,7 +165,7 @@ let cardsData: [CardData] = [
  ),
   
  CardData(
-  title: "Everyone is going to hate/laugh at you!",
+  title: "+Everyone is going to hate/laugh at you!",
   headline: "Similar to: You are going to be found out / Don't stand out too much.",
   image: "&",
    
@@ -178,7 +178,7 @@ let cardsData: [CardData] = [
  ),
   
  CardData(
-  title: "Change is bad.",
+  title: "+Change is bad.",
   headline: "Similar to: I like the way things are.",
   image: "S",
    
@@ -191,7 +191,7 @@ let cardsData: [CardData] = [
  ),
   
  CardData(
-  title: "You are never going to be good enough.",
+  title: "+You are never going to be good enough.",
   headline: "Similar to: There is something wrong with you.",
   image: "G",
    
