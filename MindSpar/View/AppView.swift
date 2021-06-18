@@ -56,8 +56,8 @@ struct AppView_Previews: PreviewProvider {
       .previewDevice("iPhone 11 Pro")
         .previewDisplayName("iPhone 11 Pro")
 //             .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
-        .environment(\.colorScheme, .dark)
-        //.environment(\.colorScheme, .light)
+        //.environment(\.colorScheme, .dark)
+        .environment(\.colorScheme, .light)
 
     
 //       AppView()

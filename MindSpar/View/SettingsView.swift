@@ -308,9 +308,10 @@ MindSpar is an app aimed at training your mind to replace some of our negative r
       if showAcknowledgements {
         
         HStack {
-          Text("Person 2")
+          Text("Julia Noble")
           Spacer()
-          Text("Psychology consultation")
+            
+          Text("Registered Psychiatric Nurse and Midwife")
             .foregroundColor(Color.gray)
         }
 
