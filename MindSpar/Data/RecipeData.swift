@@ -113,7 +113,7 @@ let cardsData: [CardData] = [
  ),
  CardData(
   title: "+You are not going to make it.",
-  headline: "Similar to: You are not good enough.",
+  headline: "Similar to: You are never going to be good enough.",
   image: "Composition - 8",
    
   instructions: [
